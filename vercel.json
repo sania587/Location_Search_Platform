@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "outputDirectory": "dist",
+  "name": "location-search-platform",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
