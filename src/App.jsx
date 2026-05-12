@@ -1,14 +1,13 @@
 import React from 'react';
 import MapComponent from './components/MapComponent';
-import './App.css';
+import './index.css';
 
 const App = () => {
-    return (
-        <div className="App">
-            <h1>Pakistan Regions Map</h1>
-            <MapComponent />
-        </div>
-    );
+  return (
+    <div className="h-screen w-screen relative overflow-hidden">
+      <MapComponent />
+    </div>
+  );
 };
 
 export default App;
